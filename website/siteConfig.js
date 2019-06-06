@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Crowi', // Title for your website.
+  tagline: 'Empower your team with sharing your knowledges.',
+  url: 'https://crowi.wiki', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -49,31 +49,29 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  footerIcon: 'img/crowi-logo-128x128.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#74322c',
-    secondaryColor: '#51231e',
+    primaryColor: '#263a3c',
+    secondaryColor: '#43676b',
   },
 
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
+      "Open Sans",
+      "Helvetica Neue"
     ],
     myOtherFont: [
       "-apple-system",
       "system-ui"
     ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Crowi Project.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -100,7 +98,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/crowi/crowi-docs',
 };
 
 module.exports = siteConfig;

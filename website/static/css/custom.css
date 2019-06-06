@@ -1,4 +1,5 @@
 /* your custom css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
