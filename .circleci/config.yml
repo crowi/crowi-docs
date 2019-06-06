@@ -1,7 +1,6 @@
 aliases:
   - &filter-only-master
     branches:
-      ignore: gh-pages
       only:
         - master
 
