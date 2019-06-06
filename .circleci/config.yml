@@ -4,15 +4,11 @@ aliases:
       only:
         - master
 
-
 version: 2
 jobs:
   deploy-website:
     docker:
       - image: circleci/node:8.11.1
-    branches:
-      ignore: gh-pages
-
     steps:
       - checkout
       - run:
