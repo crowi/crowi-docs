@@ -24,6 +24,7 @@ const siteConfig = {
   title: 'Crowi', // Title for your website.
   tagline: 'Empower your team with sharing your knowledges.',
   url: 'https://docs.crowi.wiki', // Your website URL
+  cname: 'docs.crowi.wiki',
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
